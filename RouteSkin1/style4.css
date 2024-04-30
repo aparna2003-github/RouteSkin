@@ -1,0 +1,24 @@
+.skintypefind1{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 10%;
+    width: 80%;
+    height: 600px;
+    background: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+}
+.skintypefind2{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-right: 10%;
+    width: 80%;
+    height: 470px;
+    background: white;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 10px 10px 10px 10px;
+}

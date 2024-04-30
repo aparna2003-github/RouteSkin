@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteSkin</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body background="images/mainpic2.png">
+    <div class="detail" style="margin-top: 0;">
+        <p style="font-size: 30px;"><b>Sign Up</b></p>
+        <p class="para1" style="opacity: 0.6;">Please enter your details to sign up</p><br>
+        <form action="process.signup.php" method="post" novalidate class="f">
+            <input class="f1" type="text" name="first_name" placeholder="First Name" required>
+            <br>
+            <input class="f1" type="text" name="last_name" placeholder="Last Name" required>
+            <br>
+            <input class="f1" type="email" name="email" placeholder="Email Address" required>
+            <br>
+            <input class="f1" name="dob" placeholder="Date of Birth" type="date" required>
+            <br>
+            <input class="f1" type="password" name="password" placeholder="Password" required>
+            <br>
+            <input class="f1" type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <br>
+            <input class="logbutton1" type="submit" placeholder="Sign Up" value="Sign Up">
+        </form>
+        <br><br>
+        <p class="para1">Already have an account? <a href="login.html" style="text-decoration: none;color: orangered;">Log In</a></p>
+        <br>
+    </div>
+</body>
+</html>
